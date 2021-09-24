@@ -1,5 +1,11 @@
 # tina-graphql
 
+## 0.55.0
+
+### Minor Changes
+
+- f3bddeb4a: Added new warning messages for list UI that we do not support by default
+
 ## 0.54.3
 
 ### Patch Changes

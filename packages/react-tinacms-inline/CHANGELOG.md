@@ -1,5 +1,17 @@
 # Change Log
 
+## 0.52.6
+
+### Patch Changes
+
+- aa714b1fb: Improve BlockComponentProps and Block.Component
+- Updated dependencies [9213d5608]
+- Updated dependencies [a419056b6]
+- Updated dependencies [ded8dfbee]
+- Updated dependencies [5df9fe543]
+- Updated dependencies [9d68b058f]
+  - @tinacms/toolkit@0.54.0
+
 ## 0.52.5
 
 ### Patch Changes

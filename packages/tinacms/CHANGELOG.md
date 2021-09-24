@@ -1,5 +1,51 @@
 # tinacms
 
+## 0.56.0
+
+### Minor Changes
+
+- c6e2dd69a: Updated Wrapper component so that it can be build without loading the media store
+- 3f9cad860: A warning message is added to warn the user if they are using a staticRequest at run time.
+
+### Patch Changes
+
+- 08ef183a0: Allow tina.io URLs to be supplied as a a prop:
+
+  ```tsx
+  <TinaEditProvider
+    editMode={
+      <TinaCMS
+        branch="main"
+        clientId={NEXT_PUBLIC_TINA_CLIENT_ID}
+        tinaioConfig={{
+          baseUrl: "some-base.io"
+        }}
+        //...
+  ```
+
+  Or just the identity/content URLs:
+
+  ```tsx
+  <TinaEditProvider
+    editMode={
+      <TinaCMS
+        branch="main"
+        clientId={NEXT_PUBLIC_TINA_CLIENT_ID}
+        tinaioConfig={{
+          identityApiUrl: "https://some-base.io"
+          // AND/OR
+          contentApiUrl: "https://content.some-base.io"
+        }}
+        //...
+  ```
+
+- Updated dependencies [9213d5608]
+- Updated dependencies [a419056b6]
+- Updated dependencies [ded8dfbee]
+- Updated dependencies [5df9fe543]
+- Updated dependencies [9d68b058f]
+  - @tinacms/toolkit@0.54.0
+
 ## 0.55.2
 
 ### Patch Changes
